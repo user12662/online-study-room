@@ -1,4 +1,5 @@
-<script src="https://0b1f0254-48ae-4e90-868d-f7818675309c-00-31d707jg3bpcz.riker.replit.dev/"></script>
+<script src="/socket.io/socket.io.js"></script> //links the stupid soket file
+
 <script src="js/app.js"></script>
 
 
