@@ -11,4 +11,13 @@ socket.emit('draw', { x: 100, y: 150 }); // Sends drawing coordinates to the ser
 // Listen for drawing data from other users
 socket.on('draw', (data) => {
   console.log('Drawing received:', data);
+
+
+  const socket = io(); // Connect to the WebSocket server
+
+// Log a message when connected
+socket.on('connect', () => {
+  console.log('Successfully connected to the server');
+});
+
 });
